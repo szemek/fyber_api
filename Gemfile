@@ -6,6 +6,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 
+gem 'dotenv-rails', '~> 2.0', '>= 2.0.2'
 gem 'faraday', '~> 0.9.2'
 
 group :development do
