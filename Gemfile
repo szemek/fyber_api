@@ -14,6 +14,7 @@ group :development do
   gem 'binding_of_caller', '~> 0.7.2'
   gem 'guard', '~> 2.13'
   gem 'guard-rspec', '~> 4.6', '>= 4.6.4'
+  gem 'quiet_assets', '~> 1.1'
 end
 
 group :development, :test do
