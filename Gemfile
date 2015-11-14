@@ -21,4 +21,7 @@ group :development, :test do
   gem 'awesome_print', '~> 1.6', '>= 1.6.1'
   gem 'pry-rails', '~> 0.3.4'
   gem 'rspec-rails', '~> 3.4'
+  gem 'timecop', '~> 0.8.0'
+  gem 'vcr', '~> 3.0'
+  gem 'webmock', '~> 1.22', '>= 1.22.3'
 end
