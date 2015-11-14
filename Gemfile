@@ -8,6 +8,8 @@ gem 'jquery-rails'
 
 gem 'dotenv-rails', '~> 2.0', '>= 2.0.2'
 gem 'faraday', '~> 0.9.2'
+gem 'foundation-rails', '~> 5.5', '>= 5.5.3.2'
+gem 'haml-rails', '~> 0.9.0'
 
 group :development do
   gem 'better_errors', '~> 2.1', '>= 2.1.1'

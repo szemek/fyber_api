@@ -1,0 +1,12 @@
+@import 'foundation/functions';
+
+$include-html-classes: true;
+$include-html-global-classes: $include-html-classes;
+
+@import 'foundation/components/grid';
+@import 'foundation/components/alert-boxes';
+@import 'foundation/components/block-grid';
+@import 'foundation/components/buttons';
+@import 'foundation/components/forms';
+@import 'foundation/components/offcanvas';
+@import 'foundation/components/panels';
