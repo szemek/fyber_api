@@ -1,0 +1,11 @@
+.row
+  .large-12.columns
+    = form_tag :offers do
+      .row
+        = text_field_tag :uid, nil, placeholder: 'uid'
+      .row
+        = text_field_tag :pub0, nil, placeholder: 'pub0'
+      .row
+        = number_field_tag :page, nil, placeholder: 'page', min: 1
+      .row
+        = submit_tag 'Search', class: 'button'
