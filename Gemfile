@@ -11,6 +11,11 @@ gem 'faraday', '~> 0.9.2'
 gem 'foundation-rails', '~> 5.5', '>= 5.5.3.2'
 gem 'haml-rails', '~> 0.9.0'
 
+group :production do
+  gem 'passenger', '~> 5.0', '>= 5.0.21'
+  gem 'rails_12factor', '~> 0.0.3'
+end
+
 group :development do
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
   gem 'binding_of_caller', '~> 0.7.2'

@@ -115,6 +115,9 @@ GEM
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
+    passenger (5.0.21)
+      rack
+      rake (>= 0.8.1)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -145,6 +148,11 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.3)
     railties (4.2.5)
       actionpack (= 4.2.5)
       activesupport (= 4.2.5)
@@ -222,9 +230,11 @@ DEPENDENCIES
   guard (~> 2.13)
   guard-rspec (~> 4.6, >= 4.6.4)
   haml-rails (~> 0.9.0)
+  passenger (~> 5.0, >= 5.0.21)
   pry-rails (~> 0.3.4)
   quiet_assets (~> 1.1)
   rails (= 4.2.5)
+  rails_12factor (~> 0.0.3)
   rspec-rails (~> 3.4)
   sass-rails (~> 5.0)
   timecop (~> 0.8.0)
