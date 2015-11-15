@@ -1,4 +1,9 @@
 .row
+  - if flash[:notice]
+    .alert-box.info
+      = flash[:notice]
+
+.row
   .large-12.columns
     = form_tag :offers do
       .row

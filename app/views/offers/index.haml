@@ -1,4 +1,18 @@
-.row
-  .large-12.columns
-    .row
-      = link_to 'Back to search', root_path, class: 'button'
+.offers
+  .row
+    .large-12.columns
+      %ul.row.small-block-grid-3
+        - if offers.empty?
+          %h2 No offers available
+        - else
+          - offers.each do |offer|
+            %li.offer
+              %p
+                %strong= offer.title
+              %p.thumbnail
+                = image_tag offer.lowres
+              %p
+                %strong Payout:
+                = offer.payout
+      .row
+        = link_to 'Back to search', root_path, class: 'button'
