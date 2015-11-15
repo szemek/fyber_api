@@ -38,3 +38,12 @@ There are 4 important classes:
   - `Api::Offer` fetches data from Fyber API
   - `OffersDecorator` transform data from `Api::Offer` into collection that will be used by view
   - `OffersController` combines all pieces, then renders view or redirects
+
+#### Workflow
+
+Baby steps. Small commits that introduce one cohesive chunk at a time.
+I used set of favourite tools when implementing this project.
+
+#### Code design
+
+I strived for simple, readable code ([KISS](https://en.wikipedia.org/wiki/KISS_principle)), but I also tried to separate responsibility between classes ([Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)).
