@@ -31,6 +31,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'codeclimate-test-reporter', '~> 0.4.8', require: false
   gem 'timecop', '~> 0.8.0'
   gem 'vcr', '~> 3.0'
   gem 'webmock', '~> 1.22', '>= 1.22.3'

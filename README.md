@@ -1,5 +1,9 @@
 ## Fyber API
 
+[![Build Status](https://travis-ci.org/szemek/fyber_api.svg?branch=master)](https://travis-ci.org/szemek/fyber_api)
+[![Code Climate](https://codeclimate.com/github/szemek/fyber_api/badges/gpa.svg)](https://codeclimate.com/github/szemek/fyber_api)
+[![Test Coverage](https://codeclimate.com/github/szemek/fyber_api/badges/coverage.svg)](https://codeclimate.com/github/szemek/fyber_api/coverage)
+
 Project uses Ruby 2.2.3 & Rails 4.2.5.
 
 ### Installation
